@@ -27,7 +27,7 @@ requirements:
     - matplotlib >=2.0,!=3.0.1
     - scipy >=1.0
     - sympy
-    - numba >= 0.39
+    - numba >=0.39
     - plotly >=3.6,<4
 
 test:
