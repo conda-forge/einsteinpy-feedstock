@@ -17,15 +17,18 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.5
     - setuptools
 
   run:
-    - python
-    - numpy >=1.14
-    - astropy
-    - matplotlib
-    - scipy
+    - python >=3.5
+    - numpy >=1.9
+    - astropy >=3.1,<4
+    - matplotlib >=2.0,!=3.0.1
+    - scipy >=1.0
+    - sympy
+    - numba >=0.39
+    - plotly >=3.6,<4
 
 test:
   imports:
