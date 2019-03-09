@@ -39,6 +39,9 @@ test:
     - pytest
     - pytest-benchmark
 
+  commands:
+    - py.test -vv
+
 about:
   home: https://{{ name }}.github.io/
   license: MIT
