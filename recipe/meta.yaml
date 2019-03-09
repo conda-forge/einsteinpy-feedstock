@@ -26,6 +26,7 @@ requirements:
     - astropy
     - matplotlib
     - scipy
+    - sympy
 
 test:
   imports:
