@@ -23,9 +23,9 @@ requirements:
   run:
     - python >=3.5
     - numpy >=1.14
-    - astropy
+    - astropy >=3.0
     - matplotlib
-    - scipy
+    - scipy >=1.0
     - sympy
 
 test:
