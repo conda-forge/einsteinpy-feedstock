@@ -1,7 +1,7 @@
 About einsteinpy
 ================
 
-Home: https://einsteinpy.github.io/
+Home: https://einsteinpy.org/
 
 Package license: MIT
 
