@@ -1,5 +1,5 @@
 {% set name = "einsteinpy" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  md5: 8a8815ae9341f4b544c496a697342892
+  md5: 249e785010b1b22aabc763479ab73c59
 
 build:
   number: 0
