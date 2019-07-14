@@ -10,7 +10,7 @@ source:
   md5: 249e785010b1b22aabc763479ab73c59
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
   noarch: python
 
