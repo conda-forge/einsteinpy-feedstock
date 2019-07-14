@@ -43,10 +43,10 @@ test:
     - pytest-benchmark
 
 about:
-  home: https://{{ name }}.github.io/
+  home: https://{{ name }}.org/
   license: MIT
-  summary: "Python Library for General Relativity!"
-  doc_url: https://{{ name }}-project.readthedocs.io/
+  summary: "Python for General Relativity!"
+  doc_url: https://docs.{{ name }}.org/
   dev_url: https://github.com/{{ name }}/{{ name }}/blob/master/docs/source/user_guide.rst
 
 extra:
