@@ -7,7 +7,7 @@ Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: Python Library for General Relativity!
+Summary: Python for General Relativity!
 
 
 
