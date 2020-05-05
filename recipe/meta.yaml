@@ -1,5 +1,5 @@
 {% set name = "einsteinpy" %}
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,21 +7,21 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  md5: 24f0ba1b00781fc3bd2cf8fa082e22ca
+  md5: 2e294b8c4ea8cbd248748cabec70bb9b
 
 build:
-  number: 1
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+  number: 0
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
   noarch: python
 
 requirements:
   host:
     - pip
-    - python >=3.5
+    - python >=3.6
     - setuptools
 
   run:
-    - python >=3.5
+    - python >=3.6
     - numpy
     - astropy
     - matplotlib-base
@@ -46,7 +46,7 @@ about:
   home: https://{{ name }}.org/
   license: MIT
   license_file: COPYING
-  summary: "Python for General Relativity!"
+  summary: Python for General Relativity!
   doc_url: https://docs.{{ name }}.org/
   dev_url: https://github.com/{{ name }}/{{ name }}/blob/master/docs/source/user_guide.rst
 
