@@ -5,11 +5,13 @@ Home: https://einsteinpy.org/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/einsteinpy-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python for General Relativity!
 
+Development: https://github.com/einsteinpy/einsteinpy/blob/master/docs/source/user_guide.rst
 
+Documentation: https://docs.einsteinpy.org/
 
 Current build status
 ====================
