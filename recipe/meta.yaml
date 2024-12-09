@@ -10,7 +10,7 @@ source:
   md5: 208d50ec364eecc49a7d7db5de3bf83a
 
 build:
-  number: 0
+  number: 1
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
   noarch: python
 
@@ -23,7 +23,7 @@ requirements:
   run:
     - python >=3.6
     - numpy
-    - astropy
+    - astropy-base
     - matplotlib-base
     - scipy >=1.0
     - sympy >=1.1
