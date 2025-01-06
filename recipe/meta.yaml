@@ -6,22 +6,22 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   md5: 208d50ec364eecc49a7d7db5de3bf83a
 
 build:
-  number: 0
+  number: 1
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
   noarch: python
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
     - setuptools
 
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - numpy
     - astropy
     - matplotlib-base
@@ -41,6 +41,7 @@ test:
   requires:
     - pytest
     - pytest-benchmark
+    - python {{ python_min }}
 
 about:
   home: https://{{ name }}.org/
